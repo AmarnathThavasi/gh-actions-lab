@@ -1,0 +1,38 @@
+---
+title: coffee log
+version: "12.3"
+count: 12
+active: true
+initials: "JS"
+
+kitchen:
+  espresso:
+    grams: 18
+    seconds: 28
+
+beans:
+  - ethiopian
+  - colombian
+  - Sumatran
+
+beansarray: [ethiopian, colombian, Sumatran]
+
+
+orders:
+  - customer: ana
+    drink: latte
+  - customer: ben
+    drink: cortado
+
+recipe: |
+  grind the beans
+  tamp firmly
+  pull the shot
+
+notes: >
+  these three lines
+  will end up joined
+  into one
+
+supplier: ~
+discount:
